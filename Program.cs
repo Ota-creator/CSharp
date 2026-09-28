@@ -1,2 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+using System.Diagnostics.Contracts;
+
+namespace CSharpPractice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Practice1.Run();
+            Practice2.Run();
+            Practice3.Run();
+        }
+
+    }
+}
+
